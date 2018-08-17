@@ -7,7 +7,7 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from google_auth_oauthlib.flow import InstalledAppFlow
 
-api_key='AIzaSyAEAKSHlIrIEaI4_B2zk3LoZjCcnGXI664'
+api_key=''
 
 next_page_token = ['CDIQAA', 'CGQQAA', 'CJYBEAA']
 
