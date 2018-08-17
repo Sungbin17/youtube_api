@@ -17,7 +17,7 @@ search_word = input('Enter words to search: ')
 
 order_type = input('Enter order type: e.g) date, rating, relevance, title, videoCount, viewCount:  ')
 
-url = 'https://www.googleapis.com/youtube/v3/search?part=snippet' + '&q=' + search_word + '&order=' + order_type + '&publishedAfter=2018-01-01T00:00:00.000Z&maxResults=50&key=' + api_key + '&regionCode=KR'
+url = 'https://www.googleapis.com/youtube/v3/search?part=snippet' + '&q=' + search_word + '&order=' + order_type + '&maxResults=50&key=' + api_key + '&regionCode=KR'
 
 r = requests.get(url).json()
 
